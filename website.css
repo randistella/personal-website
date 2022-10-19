@@ -1,66 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 * { box-sizing: border-box; }
-body {
-    font-family: Helvetica, sans-serif;
-    background-color: #222E50;
-}
-#wrapper { 
-    background-color: #222E50; 
-    /*color: #FB9F89;*/
-    width: 80%;
-    margin: auto;
-    min-width: 850px;
-    max-width: 1200px;
-}
-
-.img, img { 
-    width: 100%;
-    height: auto;
-}
-main { 
-    display: block;
-    padding: 3em;
-    background-color: #FFFFFF;
-    color: #000000;
-} 
-
-footer {
-    background-color: #456990;
-	font-size: .8em;
-	text-align: left;
-    padding: 2em;
-    font-weight: 600;
-}
-
-
-.floatleft {    
-    float:left; 
-    margin:auto;
-    width: auto;
-    text-align: center;
-    font-style: italic;
-    font-size: smaller;
-    text-indent: 0;
-    border: 10px #A3B18A solid;
-    margin: 1em;
-    padding: 1em;
-}
-.floatright { 
-    float:right; 
-    margin:auto;
-    width: auto;
-    text-align: center;
-    font-style: italic;
-    font-size: smaller;
-    text-indent: 0;
-    border: 10px #A3B18A solid;
-    margin: 1em;
-    padding: 1em;
-}
-.clearfix {
-    overflow: auto; 
-}
 
 .topnav {
     overflow: hidden;
@@ -93,6 +33,65 @@ footer {
     display: none;
 }
 
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #222E50;
+}
+#wrapper { 
+    background-color: #222E50; 
+    /*color: #FB9F89;*/
+    width: 80%;
+    margin: auto;
+    min-width: 850px;
+    max-width: 1200px;
+}
+
+img.photo {
+    width: 100%;
+    height: auto;
+}
+
+main { 
+    display: block;
+    padding: 3em;
+    background-color: #222E50;
+    color: #FFFFFF;
+} 
+
+footer {
+    background-color: #456990;
+	font-size: .8em;
+	text-align: left;
+    padding: 2em;
+    font-weight: 600;
+}
+
+
+/*photo grid*/
+.photo-grid-container {
+    align-items: center;
+    padding-bottom: 120px;
+  }
+  
+.photo-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+  }
+  
+.photo-grid-item {
+    width: 400px;
+    height: auto;
+    margin: 5px 0px 0px 20px;
+  }
+
+p.project_info {
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+}
+
 /*RESPOSIVE CSS BELOW*/
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
@@ -116,6 +115,7 @@ footer {
   }
   
 }
+
 
 
 
@@ -221,5 +221,33 @@ div.shop
 
 
   <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
-        
+
+
+.floatleft {    
+    float:left; 
+    margin:auto;
+    width: auto;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: 10px #A3B18A solid;
+    margin: 1em;
+    padding: 1em;
+}
+.floatright { 
+    float:right; 
+    margin:auto;
+    width: auto;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: 10px #A3B18A solid;
+    margin: 1em;
+    padding: 1em;
+}
+.clearfix {
+    overflow: auto; 
+
 */
