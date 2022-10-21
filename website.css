@@ -12,7 +12,7 @@
 .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -47,17 +47,17 @@
 body {
     font-family: PT Sans Pro Caption, Helvetica, sans-serif;
     background-color: #222E50;
+    font-size: large;
 }
 
 h1 {
-    font-family: PT Sans, sans-serif;
+    font-family: PT Sans, Helvetica, sans-serif;
     font-size: 25pt;
 }
 
-.textmedium
-
-.textsmall
-
+.center {
+    text-align: center;
+}
 
 #wrapper { 
     background-color: #222E50; 
@@ -81,18 +81,58 @@ main {
 } 
 
 footer {
-    background-color: #456990;
-	font-size: .8em;
-	text-align: left;
-    padding: 2em;
-    font-weight: 600;
+    background-color: #222E50;
+	text-align: center;
+    padding: 3em;
 }
+
+.footertxt a:link, a:visited {
+    font-family: PT Sans Pro Caption, Helvetica, sans-serif;
+    border-style: solid;
+    border-width: thin;
+    border-color: #FFCA0A;
+    color: #FFCA0A;
+    background-color: #222E50;
+    padding: 6px 30px;
+    text-decoration: none;
+    
+}
+
+.footertxt a:hover {
+    font-family: PT Sans Pro Caption, Helvetica, sans-serif;
+    border-style: solid;
+    border-width: thin;
+    border-color: #FFCA0A;
+    color: #222E50;
+    padding: 6px 30px;
+    background-color: #FFCA0A;
+}
+
+.button {
+    font-family: PT Sans Pro Caption, Helvetica, sans-serif;
+    border-style: solid;
+    border-width: thin;
+    border-color: #FFCA0A;
+    color: #FFCA0A;
+    padding: 6px 30px;
+    background-color: #222E50;
+    font-size: large;
+}
+
+.button:hover {
+    font-family: PT Sans Pro Caption, Helvetica, sans-serif;
+    border-style: solid;
+    border-width: thin;
+    border-color: #222E50;
+    color: #222E50;
+    background-color: #FFCA0A;
+    padding: 6px 30px; }
 
 
 /*photo grid*/
 .photo-grid-container {
     align-items: center;
-    padding-bottom: 120px;
+    padding: 20px;
   }
   
 .photo-grid {
@@ -112,6 +152,10 @@ p.project_info {
     text-align: center;
     font-style: italic;
     font-size: smaller;
+}
+
+.wrapper {
+    border: thin solid #FFCA0A;
 }
 
 /*RESPOSIVE CSS BELOW*/

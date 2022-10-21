@@ -9,6 +9,7 @@
 </head>
     
 <body>
+<div class="sticky">
 <div class="topnav" id="myTopnav">
     <a href="assets/resume.pdf" class="resume">Resume</a>
   <a href="#projects">Projects</a>
@@ -17,6 +18,7 @@
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
+</div>
 </div>
 
 <script>
@@ -33,35 +35,38 @@ function myFunction() {
         <h1><img src="assets/wave.svg.png" style="width:25px;height:25px"/>  Hi, I'm Randi Stella.<br>
             I'm a web developer, designer, and artist.</h1>
         
-            My background is in photography, printmaking, and graphic design. I have been programming for about a year. My skillset includes HTML/CSS and Adobe Suite. I'm learning JavaScript, XML, and Typescript. I am currently attending College of Dupage, studying web development and live in Chicago.
+            My background is in photography, printmaking, and graphic design. I have been programming for about a year. My skillset includes HTML/CSS and Adobe Suite. I'm learning JavaScript, XML, and Typescript. I am currently attending College of Dupage where I'm studying web development. I live in Chicago.
        
-        <h1 id="projects">Projects</h1>
+        <h2 id="projects">Projects</h2>
         <div class='photo-grid-container'>
             <div class='photo-grid'>
                 <div class='photo-grid-item'>
-                    <a href="https://randistella.github.io/plant-house/"><img class="photo" src="assets/planthouse2.jpg" alt="plant house"/></a>
-                    <p class="project_info">Final project: Plant House</p>
+                    <div class="wrapper"><a href="https://randistella.github.io/plant-house/"><img class="photo" src="assets/planthouse2.jpg" alt="plant house"/></a>
+                    <p class="project_info">Final project: Plant House</p></div>
                 </div>
                 <div class='photo-grid-item'>
-                    <a href="https://randistella.github.io/odin-landing-page/"><img class="photo" src="assets/adoption.jpg" alt="dog adoption"/></a>
-                    <p class="project_info">Flexbox practice: Adoption landing page</p>
+                    <div class="wrapper"><a href="https://randistella.github.io/odin-landing-page/"><img class="photo" src="assets/adoption.jpg" alt="dog adoption"/></a>
+                    <p class="project_info">Flexbox practice: Adoption landing page</p></div>
                 </div>
                 <div class='photo-grid-item'>
-                    <a href="https://randistella.github.io/Maxwell_Scientific/"><img class="photo" src="assets/maxwell.jpg" alt="maxwell"/></a>
-                    <p class="project_info">Collaborative project: Maxwell Scientific</p>
+                    <div class="wrapper"><a href="https://randistella.github.io/Maxwell_Scientific/"><img class="photo" src="assets/maxwell.jpg" alt="maxwell"/></a>
+                    <p class="project_info">Collaborative project: Maxwell Scientific</p></div>
                 </div>
                 <div class='photo-grid-item'>
-                    <a href="https://randistella.github.io/hobby_climbing/index.html"><img class="photo" src="assets/climbing.jpg" alt="climbing"/></a>
-                    <p class="project_info">Hobby website: Rock Climbing</p>
+                    <div class="wrapper"><a href="https://randistella.github.io/hobby_climbing/index.html"><img class="photo" src="assets/climbing.jpg" alt="climbing"/></a>
+                    <p class="project_info">Hobby website: Rock Climbing</p></div>
                 </div>
             </div>
         </div>
-        <h1 id="design">Design</h1>
+        <h2 id="design">Design</h2>
             
-        <h1 id="contact">Contact</h1>
+        <h2 id="contact">Contact</h2>
+        I'm always interested in new projects and collaborations.<br><br>
+            
+        <a href="mailto:randinicolestella@gmail.com"><button class="button">Get in touch!</button></a>
         
     </main>
-    <footer><a href="https://github.com/randistella/personal-website">Designed and built by Randi Stella</a></footer>
+    <footer><span class="footertxt"><a href="https://github.com/randistella/personal-website">Designed and built by Randi Stella</a></span></footer>
   
 	</body>
 	</html>
