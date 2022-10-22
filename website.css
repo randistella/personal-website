@@ -5,7 +5,7 @@
 .topnav {
     overflow: hidden;
     background-color: #222E50;
-    position: sticky;
+    position: fixed; 
     font-weight: 600;
 }
 
@@ -167,6 +167,14 @@ p.project_info {
     text-decoration: none;
 }
 
+
+.wrapperdesign {
+    border: thin solid #FFFFFF;
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+    text-align: center;
+}
+
 /*RESPOSIVE CSS BELOW*/
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
@@ -191,7 +199,22 @@ p.project_info {
   
 }
 
+/*scroll to top*/
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px;
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none;
+    background-color: #222E50;
+    cursor: pointer;
+}
 
+#myBtn:hover {
+  background-color: #456990; /* Add a dark-grey background on hover */
+}
 
 
 /*POTENTIAL DEAD CODE
