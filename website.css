@@ -3,6 +3,7 @@
 * { box-sizing: border-box; }
 
 .topnav {
+    font-family: PT Sans Pro, Helvetica, sans-serif;
     overflow: hidden;
     background-color: #222E50;
     /*position: fixed;*/
@@ -91,7 +92,7 @@ footer {
 }
 
 .footertxt a:link, a:visited {
-    font-family: PT Sans Pro Caption, Helvetica, sans-serif;
+    font-family: PT Sans Pro, Helvetica, sans-serif;
     border-style: solid;
     border-width: thin;
     border-color: #FFCA0A;
@@ -104,7 +105,7 @@ footer {
 }
 
 .footertxt a:hover {
-    font-family: PT Sans Pro Caption, Helvetica, sans-serif;
+    font-family: PT Sans Pro, Helvetica, sans-serif;
     border-style: solid;
     border-width: thin;
     border-color: #FFCA0A;
@@ -116,7 +117,7 @@ footer {
 }
 
 .button {
-    font-family: PT Sans Pro Caption, Helvetica, sans-serif;
+    font-family: PT Sans Pro, Helvetica, sans-serif;
     border-style: solid;
     border-width: thin;
     border-color: #FFCA0A;
@@ -127,7 +128,7 @@ footer {
 }
 
 .button:hover {
-    font-family: PT Sans Pro Caption, Helvetica, sans-serif;
+    font-family: PT Sans Pro, Helvetica, sans-serif;
     border-style: solid;
     border-width: thin;
     border-color: #222E50;
