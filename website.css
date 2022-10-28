@@ -125,6 +125,7 @@ footer {
     padding: 6px 30px;
     background-color: #222E50;
     font-size: large;
+    text-decoration: none;
 }
 
 .button:hover {
@@ -134,7 +135,9 @@ footer {
     border-color: #222E50;
     color: #222E50;
     background-color: #FFCA0A;
-    padding: 6px 30px; }
+    padding: 6px 30px; 
+    text-decoration: none;
+}
 
 
 /*photo grid*/
@@ -192,7 +195,7 @@ p.project_info {
 }
 
 #myBtn:hover {
-  background-color: #456990; /* Add a dark-grey background on hover */
+  background-color: #456990; 
 }
 
 
