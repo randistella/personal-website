@@ -1,0 +1,15 @@
+.flex-about {
+  display: flex;
+  flex-direction: column;
+
+  a {
+    font-size: 12px;
+  }
+
+  a:hover {
+    font-weight: 600;
+    color: $hover-orange;
+    font-style: italic;
+    border-bottom: $hover-orange 1.5px solid;
+  }
+}

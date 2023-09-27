@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/6923329919.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js" defer></script>
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Randi Stella | Portfolio</title>
+  </head>
+  <body>
+    <!-- nav -->
+    <div class="flex-nav">
+      <!-- <h1 id="logo"><a href="index.html">RS</a></h1> -->
+      <nav>
+        <ul>
+          <li><a href="index.html" class="current">Home</a></li>
+          <li><a href="mailto:randinicolestella@gmail.com">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="./images/RS_resume.pdf">Resume</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="flex-container" id="myBtnContainer">
+      <h4>
+        Randi Stella is a
+        <span class="purple btn" onclick="filterSelection('f-dev')"
+          >Web Developer</span
+        > &
+        <span class="blue btn" onclick="filterSelection('f-design')"
+          >Designer</span
+        >
+        <!-- <span class="yellow btn" onclick="filterSelection('f-print')"
+          >Printmaker</span
+        >, and
+        <span class="orange btn" onclick="filterSelection('f-photo')"
+          >Photographer</span
+        >. -->
+        <div class="f-all">
+          <a href="#" class="btn active" onclick="filterSelection('all')">
+            <span class='current'>Show all</span>
+          </a>
+        </div>
+      </h4>
+    </div>
+
+    <div class="flex-container-portfolio container">
+
+      <div class="flex-item dev f-dev filterDiv">
+        <a href="https://randistella.github.io/todo-app/dist/index.html"
+          ><img src="./images/todo.png" alt=""
+        /></a>
+        <div class="flex-container-portfolio-text">
+          <p>CRUD app</p>
+        </div>
+      </div>
+
+      <div class="flex-item design f-design filterDiv">
+        <a href="./images/big/lynyn_one_big.png"
+          ><img src="./images/small/lynyn_one.png" alt=""
+        /></a>
+        <div class="flex-container-portfolio-text">
+          <p>One sheet for musician lynyn</p>
+        </div>
+      </div>
+
+      <div class="flex-item dev f-dev filterDiv">
+        <a href="https://randistella.github.io/plant-house/"
+          ><img src="./images/planthouse2_test.jpeg" alt=""
+        /></a>
+        <div class="flex-container-portfolio-text">
+          <p>Ecommerce website Plant House</p>
+        </div>
+      </div>
+
+      <div class="flex-item dev f-dev filterDiv">
+        <a href="https://randistella.github.io/Maxwell_Scientific/"
+          ><img src="./images/maxwell.jpg" alt=""
+        /></a>
+        <div class="flex-container-portfolio-text">
+          <p>Ecommerce website Maxwell Scientific</p>
+        </div>
+      </div>
+
+      <div class="flex-item dev f-dev filterDiv">
+        <a href="https://randistella.github.io/hobby_climbing/index.html"
+          ><img src="./images/climbing.jpg" alt=""
+        /></a>
+        <div class="flex-container-portfolio-text">
+          <p>Hobby website about rock climbing</p>
+        </div>
+      </div>
+
+      <div class="flex-item design f-design filterDiv">
+        <a href="./images/big/bar_big.png"
+          ><img src="./images/small/bar.jpg" alt=""
+        /></a>
+        <div class="flex-container-portfolio-text">
+          <p>Responsive social media bar UI design</p>
+        </div>
+      </div>
+
+      <div class="flex-item design f-design filterDiv">
+        <a href="./images/big/checkout_big.png"
+          ><img src="./images/small/checkout.jpg" alt=""
+        /></a>
+        <div class="flex-container-portfolio-text">
+          <p>Checkout UI design</p>
+        </div>
+      </div>
+
+      <div class="flex-item design f-design filterDiv">
+        <a href="./images/big/lynyn_big.png"
+          ><img src="./images/small/lynyn.jpg" alt=""
+        /></a>
+        <div class="flex-container-portfolio-text">
+          <p>Social media flyer for musician lynyn</p>
+        </div>
+      </div>
+
+      <div class="flex-item design f-design filterDiv">
+        <a href="./images/big/magazine_big.png"
+          ><img src="./images/small/magazine.jpg" alt=""
+        /></a>
+        <div class="flex-container-portfolio-text">
+          <p>Two page layout design for Small-er magazine</p>
+        </div>
+      </div>
+
+      <div class="flex-item design f-design filterDiv">
+        <a href="./images/big/magazine_2_big.png"
+          ><img src="./images/small/magazine_2.jpg" alt=""
+        /></a>
+        <div class="flex-container-portfolio-text">
+          <p>Two page magazine layout design about letterpress</p>
+        </div>
+      </div>
+
+      <div class="flex-item design f-design filterDiv">
+        <a href="./images/big/player_big.png"
+          ><img src="./images/small/player.jpg" alt=""
+        /></a>
+        <div class="flex-container-portfolio-text">
+          <p>Music player UI design</p>
+        </div>
+      </div>
+
+      <div class="flex-item design f-design filterDiv">
+        <a href="./images/big/popup_big.png"
+          ><img src="./images/small/popup.jpg" alt=""
+        /></a>
+        <div class="flex-container-portfolio-text">
+          <p>Pop-up UI design</p>
+        </div>
+      </div>
+
+      <div class="flex-item design f-design filterDiv">
+        <a href="./images/big/poster_big.png"
+          ><img src="./images/small/poster.jpg" alt=""
+        /></a>
+        <div class="flex-container-portfolio-text">
+          <p>Poster design about textile waste</p>
+        </div>
+      </div>
+
+      <div class="flex-item design f-design filterDiv">
+        <a href="./images/big/timer_big.png"
+          ><img src="./images/small/timer.jpg" alt=""
+        /></a>
+        <div class="flex-container-portfolio-text">
+          <p>Countdown timer UI for Lollapalooza</p>
+        </div>
+      </div>
+
+      <div class="flex-item design f-design filterDiv">
+        <a href="./images/big/transportation_big.png"
+          ><img src="./images/small/transportation.jpg" alt=""
+        /></a>
+        <div class="flex-container-portfolio-text">
+          <p>Poster design about transportation equity</p>
+        </div>
+      </div>
+
+      <div class="flex-item design f-design filterDiv">
+        <a href="./images/big/type_big.png"
+          ><img src="./images/small/type.jpeg" alt=""
+        /></a>
+        <div class="flex-container-portfolio-text">
+          <p>Flyer design for typography lecture</p>
+        </div>
+      </div>
+      <!-- don't delete this last div -->
+    </div>
+
+    <div class="flex-container-footer">
+      <a href="https://github.com/randistella/portfolio-main">Website built by Randi Stella</a>
+        </a>
+      <!-- <a href="https://github.com/randistella/portfolio-main"
+        ><i class="fa-brands fa-linkedin"></i
+      ></a> -->
+    </div>
+  </body>
+</html>

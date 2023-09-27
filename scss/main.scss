@@ -1,0 +1,184 @@
+@import "responsive";
+@import "utilities";
+@import "filter";
+@import "about";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: #fff;
+
+  a {
+    text-decoration: none;
+  }
+
+  // nav and logo
+  .flex-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 40px 0;
+
+    #logo {
+      margin-right: auto;
+      font-size: 20px;
+    }
+
+    li {
+      list-style: none;
+      display: inline-block;
+      padding: 0 15px;
+      font-size: 12px;
+      color: $silver;
+    }
+
+    a:hover {
+      font-weight: 600;
+      color: $hover-orange;
+      font-style: italic;
+      border-bottom: $hover-orange 1.5px solid;
+    }
+
+    .current {
+      font-style: italic;
+      font-weight: 600;
+      border-bottom: $hover-orange 1.5px solid;
+    }
+  }
+
+  // top container
+  .flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    margin: 0 40px;
+    overflow: hidden;
+
+    h4 {
+      color: $silver;
+      font-weight: 400;
+
+      .purple {
+        color: $dev-purple;
+        // cursor: pointer;
+      }
+
+      .blue {
+        color: $design-blue;
+        // cursor: pointer;
+      }
+
+      .yellow {
+        color: $print-yellow;
+        // cursor: pointer;
+      }
+
+      .orange {
+        color: $photo-orange;
+        // cursor: pointer;
+      }
+
+      .purple:hover,
+      .blue:hover,
+      .yellow:hover,
+      .orange:hover {
+        font-weight: 600;
+        font-style: italic;
+      }
+
+      .purple:hover {
+        border-bottom: $dev-purple 1.5px solid;
+      }
+
+      .blue:hover {
+        border-bottom: $design-blue 1.5px solid;
+      }
+
+      .yellow:hover {
+        border-bottom: $print-yellow 1.5px solid;
+      }
+
+      .orange:hover {
+        border-bottom: $photo-orange 1.5px solid;
+      }
+    }
+  }
+
+  // portfolio grid
+  .flex-container-portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+    margin: 0 20px;
+
+    .flex-item {
+      height: auto;
+      width: 300px;
+      background-color: $isabelline;
+      margin: 10px;
+      padding: 10px;
+      text-align: center;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    .dev:hover {
+      border: 1.5px $dev-purple solid;
+    }
+
+    .design:hover {
+      border: 1.5px $design-blue solid;
+    }
+
+    img {
+      display: flex;
+      width: 80%;
+      align-items: center;
+      justify-content: center;
+      margin: 20px auto 20px;
+    }
+
+    .flex-container-portfolio-text {
+      display: flex;
+      flex-direction: column;
+
+      h4,
+      p {
+        font-size: 10px;
+        color: darken($silver, 10%);
+      }
+    }
+  }
+
+  // footer
+  .flex-container-footer {
+    display: flex;
+    margin: 30px 40px 30px;
+    justify-content: center;
+    font-size: 10px;
+
+    a:hover {
+      font-weight: 600;
+      font-style: italic;
+      color: $hover-orange;
+      border-bottom: $hover-orange 1.5px solid;
+    }
+
+    // i {
+    //   color: $silver;
+    // }
+
+    // i:hover {
+    //   color: $hover-orange;
+    //   cursor: pointer;
+    // }
+  }
+}

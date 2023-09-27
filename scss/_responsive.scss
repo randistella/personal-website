@@ -1,0 +1,17 @@
+// responsive
+@media only screen and (max-width: 768px) {
+  .flex-nav {
+    nav {
+      ul {
+        li {
+          padding: 0 10px;
+          font-size: 10px;
+        }
+      }
+    }
+  }
+  .flex-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
