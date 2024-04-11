@@ -149,7 +149,7 @@ body .flex-container-portfolio {
   margin: 0 20px;
 }
 body .flex-container-portfolio .flex-item {
-  height: auto;
+  height: 300px;
   width: 300px;
   background-color: #f4f2f0;
   margin: 10px;
