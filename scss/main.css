@@ -67,6 +67,9 @@
 .casestudy-header {
   background-color: #f6f6f6;
   width: 100%;
+  height: 400px;
+  display: block;
+  color: red;
 }
 
 .casestudy-pic {
@@ -182,7 +185,7 @@ body .flex-container-portfolio {
   margin: 0 20px;
 }
 body .flex-container-portfolio .flex-item {
-  height: 300px;
+  height: auto;
   width: 300px;
   background-color: #f4f2f0;
   margin: 10px;
