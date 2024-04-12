@@ -56,6 +56,39 @@
   border-bottom: #010554 1.5px solid;
 }
 
+.casestudy-header,
+.casestudy-pic,
+.casestudy-overview,
+.casestudy-tools,
+.casestudy-process {
+  height: 400px;
+}
+
+.casestudy-header {
+  background-color: #f6f6f6;
+  width: 100%;
+}
+
+.casestudy-pic {
+  background-color: #eaeaea;
+  width: 50%;
+}
+
+.casestudy-overview {
+  background-color: #d4d4d4;
+  width: 25%;
+}
+
+.casestudy-tools {
+  background-color: #c0c0c0;
+  width: 25%;
+}
+
+.casestudy-process {
+  background-color: #a6a6a6;
+  width: 50%;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
