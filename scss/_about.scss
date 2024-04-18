@@ -3,7 +3,7 @@
   flex-direction: column;
 
   a {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   a:hover {
@@ -11,5 +11,9 @@
     color: $hover-orange;
     font-style: italic;
     border-bottom: $hover-orange 1.5px solid;
+  }
+
+  ul {
+    list-style: none;
   }
 }

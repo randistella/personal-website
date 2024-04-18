@@ -3,6 +3,7 @@
 @import "filter";
 @import "about";
 @import "casestudy";
+@import "skills";
 
 * {
   box-sizing: border-box;
@@ -153,7 +154,7 @@ body {
 
       h4,
       p {
-        font-size: 10px;
+        font-size: 13px;
         color: darken($silver, 10%);
       }
     }
