@@ -1,0 +1,58 @@
+.flex-container-skills{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 50vh;
+  margin: 40px 40px;
+
+.flex-skills {
+    align-items: center;
+    border: 1px thin white;
+    margin-right: 10px;
+    align-items: flex-start;
+    // margin-bottom: 20px;
+
+    &.front {
+      background-color: $dev-purple;
+      color: #fff;
+    }
+
+    &.back {
+      background-color: $photo-orange;
+      color: #fff;
+    }
+
+    &.design {
+      background-color: $design-blue;
+      color: #fff;
+    }
+
+    &.misc {
+      background-color: $print-yellow;
+      color: #fff;
+    }
+  
+    .skill-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 160px; 
+      height: 60px;
+      padding: 10px 30px;
+      margin-bottom: 1px;
+      border-bottom: 1px thin white;
+      font-size: 11px;
+      text-align: center;
+    }
+  }
+}
+
+// responsive
+@media only screen and (max-width: 768px) {
+  .flex-container-skills {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    flex-direction: row;
+  }
+}

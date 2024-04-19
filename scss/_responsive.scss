@@ -14,4 +14,11 @@
     flex-direction: column;
     text-align: center;
   }
-}
+  .flex-container-skills {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0;
+    height: 100vh;
+  }
+  }
+

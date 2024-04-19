@@ -8,6 +8,12 @@
     flex-direction: column;
     text-align: center;
   }
+  .flex-container-skills {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0;
+    height: 100vh;
+  }
 }
 /* SCSS HEX */
 .container {
@@ -103,6 +109,56 @@
   background-color: #a6a6a6;
 }
 
+.flex-container-skills {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 50vh;
+  margin: 40px 40px;
+}
+.flex-container-skills .flex-skills {
+  align-items: center;
+  border: 1px thin white;
+  margin-right: 10px;
+  align-items: flex-start;
+}
+.flex-container-skills .flex-skills.front {
+  background-color: #7f7eff;
+  color: #fff;
+}
+.flex-container-skills .flex-skills.back {
+  background-color: #f96e46;
+  color: #fff;
+}
+.flex-container-skills .flex-skills.design {
+  background-color: #59c3c3;
+  color: #fff;
+}
+.flex-container-skills .flex-skills.misc {
+  background-color: #f3de2c;
+  color: #fff;
+}
+.flex-container-skills .flex-skills .skill-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 60px;
+  padding: 10px 30px;
+  margin-bottom: 1px;
+  border-bottom: 1px thin white;
+  font-size: 11px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .flex-container-skills {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    flex-direction: row;
+  }
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -202,7 +258,6 @@ body .flex-container-portfolio .flex-item {
   margin: 10px;
   padding: 10px;
   text-align: center;
-  border-radius: 5px;
   overflow: hidden;
 }
 body .flex-container-portfolio .dev:hover {
