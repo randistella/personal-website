@@ -6,6 +6,7 @@
   height: auto;
   margin: 80px 40px;
   overflow: hidden;
+  gap: 40px;
 }
 
 .casestudy-header,
@@ -15,11 +16,17 @@
 .casestudy-process {
   width: 100%;
   text-align: center;
+  padding: 20px;
+  
+  p {
+    padding-bottom: 16px;
+    font-size: 16px;
+  }
 }
 
 .casestudy-header {
-  height: 150px;
-  // background-color: #f6f6f6;
+  height: auto;
+  background-color: $isabelline;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,20 +34,41 @@
 
 .casestudy-pic {
   height: auto;
-  background-color: #eaeaea;
+  background-color: $isabelline;
+  flex-direction: column;
+  justify-content: center;
+
+  img {
+    width: 600px;
+    height: auto;
+  }
 }
 
 .casestudy-overview {
-  height: 300px;
-  background-color: #d4d4d4;
+  height: auto;
+  background-color: $isabelline;
+  flex-direction: column;
+  justify-content: center;
+
+  img {
+    width: auto;
+    height: 800px;
+  }
 }
 
 .casestudy-tools {
-  height: 300px;
-  background-color: #c0c0c0;
+  height: auto;
+  background-color: $isabelline;
+  flex-direction: column;
+  justify-content: center;
+
+  img {
+    width: auto;
+    height: 800px;
+  }
 }
 
 .casestudy-process {
   height: 300px;
-  background-color: #a6a6a6;
+  // background-color: #a6a6a6;
 }

@@ -20,5 +20,13 @@
     margin: 0;
     height: 100vh;
   }
+
+  .casestudy-pic, .casestudy-overview, .casestudy-tools  { 
+    img {
+      width: 100px;
+      height: auto;
+    }
+  }
+  
 }
 
