@@ -15,7 +15,7 @@
     height: 100vh;
   }
   .casestudy-pic img, .casestudy-overview img, .casestudy-tools img {
-    width: 100px;
+    width: 50px;
     height: auto;
   }
 }
@@ -143,6 +143,15 @@
   height: 300px;
 }
 
+@media only screen and (max-width: 768px) {
+  .casestudy-pic p, .casestudy-overview p, .casestudy-tools p, .casestudy-header p {
+    font-size: 12px;
+  }
+  .casestudy-pic img, .casestudy-overview img, .casestudy-tools img, .casestudy-header img {
+    width: 350px;
+    height: auto;
+  }
+}
 .flex-container-skills {
   display: flex;
   align-items: flex-start;

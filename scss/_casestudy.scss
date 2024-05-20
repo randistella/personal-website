@@ -72,3 +72,19 @@
   height: 300px;
   // background-color: #a6a6a6;
 }
+
+// responsive
+@media only screen and (max-width: 768px) {
+
+  .casestudy-pic, .casestudy-overview, .casestudy-tools, .casestudy-header  { 
+
+    p {
+      font-size: 12px;
+    }
+
+    img {
+      width: 350px;
+      height: auto;
+    }
+  }
+}
